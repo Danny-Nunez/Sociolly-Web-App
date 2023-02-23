@@ -2,6 +2,8 @@
 
 A social media app using youtube api and showcasing react native structure. This is a demo project showcasing a social media app that allows users to display there photos comment or like images.
 
+Live Demo Link 👉 https://sociolly-web-app.vercel.app/
+
 <img width="1159" alt="Screen Shot 2023-02-22 at 9 55 21 PM" src="https://user-images.githubusercontent.com/114783191/220812336-f2681c3b-3d07-4461-b1ca-ee921fc56a39.png">
 
 # Home Page
