@@ -66,13 +66,13 @@ export default function LeftHome({ user }) {
       </div>
       <div className="shortcut_list">
         <Shortcut
-          link="https://www.youtube.com/c/MohamedHaJJi1/featured"
+          link="https://dannyfullstack.dev/"
           img="../../images/ytb.png"
           name="My Youtube channel"
         />
 
         <Shortcut
-          link="https://www.instagram.com/med_hajji7/"
+          link="https://dannyfullstack.dev/"
           img="../../images/insta.png"
           name="My Instagram "
         />
@@ -91,7 +91,7 @@ export default function LeftHome({ user }) {
         <Link to="/"></Link>Cookies <span>. </span>
         <Link to="/">More </Link>
         <span>. </span> <br />
-        Meta © 2022
+        Sociolly © 2023
       </div>
     </div>
   );
