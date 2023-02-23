@@ -1,0 +1,27 @@
+.dateshell {
+  display: flex;
+  font-size: 15px;
+  padding-left: 5px;
+}
+#date {
+  padding: 5px;
+}
+#month {
+  padding: 5px;
+}
+#year {
+  padding: 5px;
+}
+#day {
+  padding: 5px;
+  font-size: 25px;
+}
+.main {
+  box-sizing: border-box;
+  display: flexbox;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding-left: 10px;
+  padding-right: 10px;
+}

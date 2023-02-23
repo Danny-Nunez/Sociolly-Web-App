@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+.landinginfo {
+  padding: 20px;
+  align-content: center;
+  text-align: center;
+}
+.splashimg img {
+  width: 500px;
+}
+
+.video-item {
+  display: flex !important;
+  align-items: center !important;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.video-item.item img {
+  max-width: 200px;
+  max-height: 250px;
+}
+.ui_row {
+  display: flex;
+  width: 100%;
+}
+.videobox {
+  width: 100%;
+  min-height: 500px;
+  margin-top: 10px;
+}
+.ui_embed {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.ui_grid {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.videos_right {
+  padding-left: 5px;
+  max-width: 470px;
+}
+.ui_container {
+  font-family: Poppins;
+  margin: auto;
+  width: 85%;
+  height: calc(100vh - 56px);
+  margin-top: 50px;
+  background: var(--bg-primary);
+  color: var(--color-primary);
+}
+.dividedlist img {
+  padding: 5px;
+  border-radius: 20px;
+}
+.dividedlist {
+  font-size: 12px;
+  transition: all 0.2s ease-in-out;
+  background: var(--bg-primary);
+  color: var(--color-primary);
+}
+.header {
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+.content {
+  font-size: 10px;
+}
+.search-bar {
+}
+.ui_segment {
+  padding: 10px;
+}
+.ui_header {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.search svg {
+  width: 40px;
+}
+.ui_search {
+  padding-top: 34px;
+  padding-bottom: 34px;
+  margin: auto;
+  max-width: 73%;
+}
+.field {
+  width: 100%;
+}
+.ui_form input {
+  width: 400%;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.but1 {
+  right: 19.2%;
+  margin-top: -29px;
+  position: absolute;
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px;
+  background: rgb(37, 99, 255);
+  color: #fff;
+  cursor: pointer;
+}
+.but1 svg {
+  padding-top: 5px;
+  margin-left: -5px;
+  margin-right: -15px;
+}
+.but1:hover {
+  background-color: rgb(98, 0, 255);
+}
+.itemwrapper:hover {
+  background: var(--bg-secondary);
+  border-radius: 20px;
+}
+
+@media (max-width: 1200px) {
+  .ui_embed {
+    height: 400px;
+  }
+  .ui_form input {
+    width: 150%;
+  }
+}
+@media (max-width: 1000px) {
+  .ui_row {
+    display: block;
+  }
+  .content {
+    display: block;
+  }
+  .itemwrapper img {
+    display: flex;
+  }
+  .itemwrapper {
+    padding-bottom: 20px;
+
+    background: var(--bg-primary);
+    color: var(--color-primary);
+  }
+  .ui_container {
+    width: 95%;
+  }
+  .content {
+    display: none;
+  }
+  .but1 {
+    right: 16.2%;
+  }
+  .ui_form input {
+    width: 100%;
+  }
+}
+@media (max-width: 750px) {
+  .splashimg img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .splashimg img {
+    width: 100%;
+  }
+}
