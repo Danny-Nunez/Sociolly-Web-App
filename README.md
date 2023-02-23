@@ -1,6 +1,7 @@
 # Sociolly
 
-A social media app using youtube api and showcasing react native structure. This is a demo project showcasing a social media app that allows users to display there photos comment or like images.
+A social media app built on the mern stack. This is a demo project showcasing a social media app that allows users to display there photos comment or like images. A extra feature added youtube api for videos, this has also made it a complete CRUD app. CRUD apps consist of three parts, the database, user interface, and APIs.
+Built on a powerful stack MongoDb, Express, React and  NodeJS.
 
 Live Demo Link 👉 https://sociolly-web-app.vercel.app/
 
@@ -21,6 +22,27 @@ Live Demo Link 👉 https://sociolly-web-app.vercel.app/
 # Profile Page
 
 <img width="1256" alt="Screen Shot 2023-02-22 at 9 59 29 PM" src="https://user-images.githubusercontent.com/114783191/220812341-ed2f011e-a13c-4558-8161-9bfc6e31e68b.png">
+
+# Backend env file required
+
+PORT=8000 <br>
+DATABASE_URL= <br>
+BASE_URL= <br>
+EMAIL= <br>
+MAILING_ID= <br>
+MAILING_SECRET= <br>
+MAILING_REFRESH= <br>
+MAILING_ACCESS= <br>
+CLOUD_NAME= <br>
+CLOUD_API_KEY= <br>
+CLOUD_API_SECRET= <br>
+
+# Frontend env file required
+
+REACT_APP_BACKEND_URL=http://localhost:8000 (replace with your server url once its deployed)<br>
+REACT_APP_KEY= <br>
+
+## Available Scripts
 
 In the project directory, you can run:
 
