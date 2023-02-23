@@ -106,7 +106,7 @@ export default function UserMenu({ user }) {
               <div className="small_circle">
                 <i className="movies_icon"></i>
               </div>
-              <span>Movies</span>
+              <span>Videos</span>
             </div>
           </Link>
 
