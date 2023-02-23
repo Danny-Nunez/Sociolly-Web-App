@@ -15,9 +15,6 @@ export default function Footer() {
         <Link to="/">हिन्दी</Link>
         <Link to="/">中文(简体)</Link>
         <Link to="/">日本語</Link> */}
-        <Link to="/" className="footer_square">
-          <i className="plus_icon"></i>
-        </Link>
       </div>
       <div className="footer_splitter"></div>
       <div className="login_footer_wrap">
@@ -46,10 +43,7 @@ export default function Footer() {
         <Link to="/">Careers</Link>
         <Link to="/">Privacy</Link>
         <Link to="/">Cookies</Link> */}
-        <Link to="/">
-          AdChoices
-          <i className="adChoices_icon"></i>
-        </Link>
+
         <Link to="/">Terms</Link>
         <Link to="/">Help</Link>
       </div>

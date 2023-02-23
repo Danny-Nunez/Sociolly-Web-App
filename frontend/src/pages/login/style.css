@@ -186,6 +186,8 @@
   color: var(--color-secondary);
   max-width: 350px;
   margin: 0 auto;
+  justify-content: center;
+  text-align: center;
 }
 .login_footer_wrap a {
   display: flex;
