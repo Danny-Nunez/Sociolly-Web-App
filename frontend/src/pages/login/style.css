@@ -1,6 +1,7 @@
 /*-------login-----*/
 .login_wrapper {
   background: var(--bg-secondary);
+  padding-top: 15px;
 }
 
 .login_wrap {
