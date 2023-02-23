@@ -178,6 +178,12 @@
   background: var(--bg-primary);
   padding: 1.5rem;
 }
+.democontent {
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+}
 .login_footer_wrap {
   display: flex;
   flex-wrap: wrap;

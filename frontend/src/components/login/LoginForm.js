@@ -103,6 +103,7 @@ export default function LoginForm({ setVisible }) {
           >
             Create Account
           </button>
+          <div className="democontent">User:Demo@gmail.com Pass:123456</div>
         </div>
         <Link to="/" className="sign_extra">
           <b>Create a Page</b> for yourself, brand or business.
